@@ -1,18 +1,20 @@
-  name: your_app_name
-  description: A new Flutter project.
-  publish_to: 'none'
-  version: 1.0.0+1
+    name: Digit CountDown
+    description: A new Flutter project.
+    publish_to: 'none'
+    version: 1.0.0+1
 
-  environment:
-    sdk: ">=2.17.0 <3.0.0"
+    environment:
+      sdk: ">=2.17.0 <3.0.0"
 
-  dependencies:
+    dependencies:
+      flutter:
+        sdk: flutter
+      firebase_core: ^2.10.0
+      firebase_database: ^10.0.7
+
+    dev_dependencies:
+      flutter_test:
+        sdk: flutter
+
     flutter:
-      sdk: flutter
-
-  dev_dependencies:
-    flutter_test:
-      sdk: flutter
-
-  flutter:
-    uses-material-design: true
+      uses-material-design: true
