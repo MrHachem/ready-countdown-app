@@ -1,5 +1,18 @@
-dependencies:
+  name: your_app_name
+  description: A new Flutter project.
+  publish_to: 'none'
+  version: 1.0.0+1
+
+  environment:
+    sdk: ">=2.17.0 <3.0.0"
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+
   flutter:
-    sdk: flutter
-  firebase_core: ^2.24.0
-  firebase_database: ^10.3.3
+    uses-material-design: true
